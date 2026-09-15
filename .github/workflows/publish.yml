@@ -44,7 +44,7 @@ env:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 110
     steps:
       - uses: actions/checkout@v4
         with:
@@ -103,6 +103,8 @@ jobs:
           OUT_DIR: ${{ github.workspace }}/dumps
           MARKET_TRACKERS_CONTACT: ${{ secrets.SEC_CONTACT_EMAIL }}
           SINCE: ${{ inputs.since }}
+          # Sources with no watermark yet look back this far — enough for the insider week.
+          MARKET_TRACKERS_BACKFILL_DAYS: "10"
         run: bash data/scripts/publish.sh
 
       - name: Commit
