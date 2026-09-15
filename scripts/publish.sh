@@ -57,6 +57,35 @@ fi
 SINCE_ARGS=()
 if [ -n "${SINCE:-}" ]; then SINCE_ARGS=(--since "$SINCE"); echo "Re-walking from $SINCE"; fi
 
+# Export the store and, when DATA_DIR is set (the Action's checkout of this
+# repo), commit and push it. Called after every source, so a run stopped
+# partway still publishes everything it got.
+save() {
+  echo "::group::Save after $1"
+  rm -rf "$OUT_DIR"
+  cli export --db "$STORE" --dataset "$DATASETS" --out "$OUT_DIR" --log warn
+  # Trim what the site never reads, so the repo doesn't grow with files nobody fetches:
+  # per-entity RSS, year shards (the site reads snapshot.json.gz), and the full
+  # snapshots of the three datasets the site reads as daily files instead.
+  find "$OUT_DIR" -type d -name feeds -prune -exec rm -rf {} +
+  find "$OUT_DIR" -name 'feed.xml' -delete
+  find "$OUT_DIR" -name 'snapshot-*.json.gz' -delete
+  rm -f "$OUT_DIR/insider/transactions/snapshot.json.gz" "$OUT_DIR/short-volume/daily/snapshot.json.gz" "$OUT_DIR/congress/bills/snapshot.json.gz"
+  if [ -n "${DATA_DIR:-}" ]; then
+    rsync -a --delete --exclude .git --exclude .github --exclude scripts \
+      --exclude README.md --exclude LICENSE --exclude .gitignore "$OUT_DIR/" "$DATA_DIR/"
+    git -C "$DATA_DIR" add -A
+    if git -C "$DATA_DIR" diff --cached --quiet; then
+      echo "Nothing new from $1."
+    else
+      git -C "$DATA_DIR" commit -q -m "data: $1 $(date -u +%Y-%m-%dT%H:%MZ)"
+      git -C "$DATA_DIR" pull -q --rebase && git -C "$DATA_DIR" push -q \
+        || echo "::warning::push after $1 failed — the next save retries it."
+    fi
+  fi
+  echo "::endgroup::"
+}
+
 # One source at a time, each on its own clock. A first catch-up over two weeks
 # took longer than a whole run allows when every source went in one call, and
 # a job stopped by the platform exported nothing at all.
@@ -78,20 +107,8 @@ for source in $SOURCES; do
     echo "::warning::$source did not finish (exit $?) — it continues next run."
   fi
   echo "::endgroup::"
+  save "$source"
 done
-
-echo "::group::Export"
-rm -rf "$OUT_DIR"
-cli export --db "$STORE" --dataset "$DATASETS" --out "$OUT_DIR" --log warn
-echo "::endgroup::"
-
-# Trim what the site never reads, so the repo doesn't grow with files nobody fetches:
-# per-entity RSS, year shards (the site reads snapshot.json.gz), and the full
-# snapshots of the three datasets the site reads as daily files instead.
-find "$OUT_DIR" -type d -name feeds -prune -exec rm -rf {} +
-find "$OUT_DIR" -name 'feed.xml' -delete
-find "$OUT_DIR" -name 'snapshot-*.json.gz' -delete
-rm -f "$OUT_DIR/insider/transactions/snapshot.json.gz" "$OUT_DIR/short-volume/daily/snapshot.json.gz" "$OUT_DIR/congress/bills/snapshot.json.gz"
 
 node -e '
   const m = require(process.argv[1]);

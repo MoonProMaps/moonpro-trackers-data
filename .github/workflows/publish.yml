@@ -32,9 +32,11 @@ on:
 permissions:
   contents: write
 
+# Runs never overlap. A pipeline change replaces a run in progress (its store
+# is still saved, so nothing is lost); scheduled runs wait their turn.
 concurrency:
   group: publish
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.event_name == 'push' }}
 
 env:
   # Pinned, so a new LuxAlgo release can't change the data's shape under the site.
@@ -96,8 +98,16 @@ jobs:
             echo "SEED_DIR=$GITHUB_WORKSPACE/seed" >> "$GITHUB_ENV"
           fi
 
-      - name: Sync and export
+      - name: Set commit identity
+        working-directory: data
+        run: |
+          git config user.name "moonpro-trackers[bot]"
+          git config user.email "moonpro-trackers@users.noreply.github.com"
+
+      # Commits and pushes after every source, so the site gets each one as it lands.
+      - name: Sync and publish
         env:
+          DATA_DIR: ${{ github.workspace }}/data
           PIPELINE_DIR: ${{ github.workspace }}/pipeline
           STORE: ${{ github.workspace }}/store.db
           OUT_DIR: ${{ github.workspace }}/dumps
@@ -106,21 +116,6 @@ jobs:
           # Sources with no watermark yet look back this far — enough for the insider week.
           MARKET_TRACKERS_BACKFILL_DAYS: "10"
         run: bash data/scripts/publish.sh
-
-      - name: Commit
-        run: |
-          rsync -a --delete --exclude .git --exclude .github --exclude scripts \
-            --exclude README.md --exclude LICENSE --exclude .gitignore dumps/ data/
-          cd data
-          git config user.name "moonpro-trackers[bot]"
-          git config user.email "moonpro-trackers@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No new records this run."
-          else
-            git commit -q -m "data: $(date -u +%Y-%m-%dT%H:%MZ) sync"
-            git push
-          fi
 
       # Saved even when a step failed, so a half-finished sync isn't repeated.
       - name: Save store
