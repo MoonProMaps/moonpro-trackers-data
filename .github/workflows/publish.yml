@@ -1,0 +1,129 @@
+name: Publish trackers
+
+# Syncs MoonPro's trackers from the primary sources (SEC EDGAR, the Senate and
+# House, GovInfo, USAspending, the FEC, openFDA, ClinicalTrials.gov, the Federal
+# Reserve, FINRA, Wikimedia) and commits the export to this repo. moonpro.io
+# reads it at raw.githubusercontent.com/MoonProMaps/moonpro-trackers-data/main
+# through MOON_TRACKERS_DATA_URL.
+#
+# GitHub's cron fires late, or skips a slot, when it is busy — that is what left
+# the LuxAlgo dumps this pipeline comes from a week stale. So it runs every two
+# hours: a skipped slot costs two hours, not a week. Runs never overlap.
+#
+# Needs one repository secret: SEC_CONTACT_EMAIL (the SEC requires a contact
+# email in every EDGAR request).
+
+on:
+  schedule:
+    - cron: "23 */2 * * *"
+  # A change to the pipeline itself runs it straight away. The bot's own data
+  # commits use GITHUB_TOKEN, which never triggers workflows, so this can't loop.
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/**"
+      - "scripts/**"
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Re-walk every source from this date (YYYY-MM-DD). Leave empty for a normal run."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+env:
+  # Pinned, so a new LuxAlgo release can't change the data's shape under the site.
+  PIPELINE_REPO: LuxAlgo/market-trackers
+  PIPELINE_REF: 9bf1045b6953e42a56f112445481d411a92261c9
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: data
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.PIPELINE_REPO }}
+          ref: ${{ env.PIPELINE_REF }}
+          path: pipeline
+
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: pipeline/package.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+          cache-dependency-path: pipeline/pnpm-lock.yaml
+
+      - name: Build pipeline
+        working-directory: pipeline
+        run: pnpm install --frozen-lockfile && pnpm build
+
+      # The store carries every run's rows and the per-source watermarks, so
+      # each run only fetches what is new.
+      - name: Restore store
+        id: store
+        uses: actions/cache/restore@v4
+        with:
+          path: store.db
+          key: trackers-store-v1-${{ github.run_id }}
+          restore-keys: trackers-store-v1-
+
+      # Only when there is no store to resume (the first run, or an evicted
+      # cache): rebuild it from this repo's own last export, or — on the very
+      # first run — from the LuxAlgo dumps.
+      - name: Choose a seed to rebuild from
+        if: steps.store.outputs.cache-matched-key == ''
+        run: |
+          if [ -f data/manifest.json ]; then
+            echo "SEED_DIR=$GITHUB_WORKSPACE/data" >> "$GITHUB_ENV"
+          else
+            git clone --depth 1 --filter=blob:none --sparse https://github.com/LuxAlgo/market-trackers-data seed
+            git -C seed sparse-checkout set insider/transactions congress/trades congress/committees congress/hearings \
+              congress/bills contracts/awards fec/candidates fda/approvals clinical-trials/studies fed/communications \
+              short-volume/daily wiki/pageviews
+            echo "SEED_DIR=$GITHUB_WORKSPACE/seed" >> "$GITHUB_ENV"
+          fi
+
+      - name: Sync and export
+        env:
+          PIPELINE_DIR: ${{ github.workspace }}/pipeline
+          STORE: ${{ github.workspace }}/store.db
+          OUT_DIR: ${{ github.workspace }}/dumps
+          MARKET_TRACKERS_CONTACT: ${{ secrets.SEC_CONTACT_EMAIL }}
+          SINCE: ${{ inputs.since }}
+        run: bash data/scripts/publish.sh
+
+      - name: Commit
+        run: |
+          rsync -a --delete --exclude .git --exclude .github --exclude scripts \
+            --exclude README.md --exclude LICENSE --exclude .gitignore dumps/ data/
+          cd data
+          git config user.name "moonpro-trackers[bot]"
+          git config user.email "moonpro-trackers@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No new records this run."
+          else
+            git commit -q -m "data: $(date -u +%Y-%m-%dT%H:%MZ) sync"
+            git push
+          fi
+
+      # Saved even when a step failed, so a half-finished sync isn't repeated.
+      - name: Save store
+        if: always() && hashFiles('store.db') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: store.db
+          key: trackers-store-v1-${{ github.run_id }}

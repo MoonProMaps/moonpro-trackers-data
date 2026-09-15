@@ -1,0 +1,6 @@
+node_modules/
+*.db
+*.db-*
+dumps/
+seed/
+pipeline/
