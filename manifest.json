@@ -1,0 +1,782 @@
+{
+  "generatedAt": "2026-09-15T19:20:15.201Z",
+  "schemaVersion": 2,
+  "datasets": {
+    "congress-trades": {
+      "title": "Congressional trades",
+      "exportDir": "congress/trades",
+      "rows": 440,
+      "lastIngestedAt": "2026-09-15T19:17:33.405Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2025.json.gz",
+          "rows": 25
+        },
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 415
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 440
+        }
+      ],
+      "feed": "congress/trades/feed.xml",
+      "entityFeeds": {
+        "byTicker": 200,
+        "byMember": 31
+      }
+    },
+    "insider-transactions": {
+      "title": "Insider transactions",
+      "exportDir": "insider/transactions",
+      "rows": 25550,
+      "lastIngestedAt": "2026-09-15T17:01:02.873Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2006.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2009.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2018.json.gz",
+          "rows": 2
+        },
+        {
+          "file": "snapshot-2019.json.gz",
+          "rows": 2
+        },
+        {
+          "file": "snapshot-2020.json.gz",
+          "rows": 3
+        },
+        {
+          "file": "snapshot-2021.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2022.json.gz",
+          "rows": 4
+        },
+        {
+          "file": "snapshot-2023.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2024.json.gz",
+          "rows": 9
+        },
+        {
+          "file": "snapshot-2025.json.gz",
+          "rows": 31
+        },
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 25494
+        },
+        {
+          "file": "snapshot-2027.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 25550
+        }
+      ],
+      "feed": "insider/transactions/feed.xml",
+      "entityFeeds": {
+        "byTicker": 200,
+        "byMember": 0
+      }
+    },
+    "thirteenf-holdings": {
+      "title": "13F holdings",
+      "exportDir": "thirteenf/holdings",
+      "rows": 0,
+      "lastIngestedAt": null,
+      "stale": true,
+      "snapshots": [],
+      "feed": null,
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "gov-contracts": {
+      "title": "Government contract awards",
+      "exportDir": "contracts/awards",
+      "rows": 13592,
+      "lastIngestedAt": "2026-09-15T18:06:44.655Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-1987.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2005.json.gz",
+          "rows": 4
+        },
+        {
+          "file": "snapshot-2007.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2010.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2011.json.gz",
+          "rows": 3
+        },
+        {
+          "file": "snapshot-2012.json.gz",
+          "rows": 3
+        },
+        {
+          "file": "snapshot-2013.json.gz",
+          "rows": 2
+        },
+        {
+          "file": "snapshot-2014.json.gz",
+          "rows": 8
+        },
+        {
+          "file": "snapshot-2016.json.gz",
+          "rows": 5
+        },
+        {
+          "file": "snapshot-2017.json.gz",
+          "rows": 11
+        },
+        {
+          "file": "snapshot-2018.json.gz",
+          "rows": 15
+        },
+        {
+          "file": "snapshot-2019.json.gz",
+          "rows": 28
+        },
+        {
+          "file": "snapshot-2020.json.gz",
+          "rows": 58
+        },
+        {
+          "file": "snapshot-2021.json.gz",
+          "rows": 116
+        },
+        {
+          "file": "snapshot-2022.json.gz",
+          "rows": 123
+        },
+        {
+          "file": "snapshot-2023.json.gz",
+          "rows": 162
+        },
+        {
+          "file": "snapshot-2024.json.gz",
+          "rows": 231
+        },
+        {
+          "file": "snapshot-2025.json.gz",
+          "rows": 407
+        },
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 12411
+        },
+        {
+          "file": "snapshot-2027.json.gz",
+          "rows": 2
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 13592
+        }
+      ],
+      "feed": "contracts/awards/feed.xml",
+      "entityFeeds": {
+        "byTicker": 101,
+        "byMember": 0
+      }
+    },
+    "gov-grants": {
+      "title": "Government grant awards",
+      "exportDir": "grants/awards",
+      "rows": 0,
+      "lastIngestedAt": null,
+      "stale": true,
+      "snapshots": [],
+      "feed": null,
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "lobbying-filings": {
+      "title": "Lobbying filings",
+      "exportDir": "lobbying/filings",
+      "rows": 0,
+      "lastIngestedAt": null,
+      "stale": true,
+      "snapshots": [],
+      "feed": null,
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "short-volume": {
+      "title": "Short-sale volume",
+      "exportDir": "short-volume/daily",
+      "rows": 184089,
+      "lastIngestedAt": "2026-09-15T19:17:39.858Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 184089
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 184089
+        }
+      ],
+      "feed": "short-volume/daily/feed.xml",
+      "entityFeeds": {
+        "byTicker": 200,
+        "byMember": 0
+      }
+    },
+    "committee-assignments": {
+      "title": "Congressional committee assignments",
+      "exportDir": "congress/committees",
+      "rows": 3895,
+      "lastIngestedAt": "2026-09-15T17:03:16.636Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 3895
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 3895
+        }
+      ],
+      "feed": "congress/committees/feed.xml",
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "patents": {
+      "title": "Granted patents",
+      "exportDir": "patents/grants",
+      "rows": 0,
+      "lastIngestedAt": null,
+      "stale": true,
+      "snapshots": [],
+      "feed": null,
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "clinical-trials": {
+      "title": "Clinical trial registrations",
+      "exportDir": "clinical-trials/studies",
+      "rows": 11599,
+      "lastIngestedAt": "2026-09-07T15:12:28.928Z",
+      "stale": true,
+      "snapshots": [
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 11599
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 11599
+        }
+      ],
+      "feed": "clinical-trials/studies/feed.xml",
+      "entityFeeds": {
+        "byTicker": 200,
+        "byMember": 0
+      }
+    },
+    "fda-approvals": {
+      "title": "FDA drug application events",
+      "exportDir": "fda/approvals",
+      "rows": 703,
+      "lastIngestedAt": "2026-09-15T19:17:35.243Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 703
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 703
+        }
+      ],
+      "feed": "fda/approvals/feed.xml",
+      "entityFeeds": {
+        "byTicker": 18,
+        "byMember": 0
+      }
+    },
+    "cot-reports": {
+      "title": "CFTC Commitments of Traders",
+      "exportDir": "cot/legacy-futures",
+      "rows": 0,
+      "lastIngestedAt": null,
+      "stale": true,
+      "snapshots": [],
+      "feed": null,
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "wiki-pageviews": {
+      "title": "Wikipedia pageviews",
+      "exportDir": "wiki/pageviews",
+      "rows": 1229,
+      "lastIngestedAt": "2026-09-07T15:12:37.411Z",
+      "stale": true,
+      "snapshots": [
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 1229
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 1229
+        }
+      ],
+      "feed": "wiki/pageviews/feed.xml",
+      "entityFeeds": {
+        "byTicker": 91,
+        "byMember": 0
+      }
+    },
+    "bills": {
+      "title": "Federal legislation",
+      "exportDir": "congress/bills",
+      "rows": 18720,
+      "lastIngestedAt": "2026-09-15T17:03:16.955Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2019.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2021.json.gz",
+          "rows": 4
+        },
+        {
+          "file": "snapshot-2022.json.gz",
+          "rows": 5
+        },
+        {
+          "file": "snapshot-2023.json.gz",
+          "rows": 21
+        },
+        {
+          "file": "snapshot-2024.json.gz",
+          "rows": 41
+        },
+        {
+          "file": "snapshot-2025.json.gz",
+          "rows": 11169
+        },
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 7479
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 18720
+        }
+      ],
+      "feed": "congress/bills/feed.xml",
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "fec-candidates": {
+      "title": "FEC candidate totals",
+      "exportDir": "fec/candidates",
+      "rows": 4300,
+      "lastIngestedAt": "2026-09-07T13:01:55.812Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2025.json.gz",
+          "rows": 666
+        },
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 3634
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 4300
+        }
+      ],
+      "feed": "fec/candidates/feed.xml",
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "fec-contributions": {
+      "title": "FEC committee→candidate contributions",
+      "exportDir": "fec/contributions",
+      "rows": 0,
+      "lastIngestedAt": null,
+      "stale": true,
+      "snapshots": [],
+      "feed": null,
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "congress-hearings": {
+      "title": "Congressional hearing transcripts",
+      "exportDir": "congress/hearings",
+      "rows": 956,
+      "lastIngestedAt": "2026-09-15T18:06:41.262Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2024.json.gz",
+          "rows": 1
+        },
+        {
+          "file": "snapshot-2025.json.gz",
+          "rows": 769
+        },
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 186
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 956
+        }
+      ],
+      "feed": "congress/hearings/feed.xml",
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    },
+    "fed-communications": {
+      "title": "Federal Reserve communications",
+      "exportDir": "fed/communications",
+      "rows": 2679,
+      "lastIngestedAt": "2026-09-15T19:17:33.775Z",
+      "stale": false,
+      "snapshots": [
+        {
+          "file": "snapshot-2006.json.gz",
+          "rows": 117
+        },
+        {
+          "file": "snapshot-2007.json.gz",
+          "rows": 139
+        },
+        {
+          "file": "snapshot-2008.json.gz",
+          "rows": 243
+        },
+        {
+          "file": "snapshot-2009.json.gz",
+          "rows": 192
+        },
+        {
+          "file": "snapshot-2010.json.gz",
+          "rows": 136
+        },
+        {
+          "file": "snapshot-2011.json.gz",
+          "rows": 120
+        },
+        {
+          "file": "snapshot-2012.json.gz",
+          "rows": 109
+        },
+        {
+          "file": "snapshot-2013.json.gz",
+          "rows": 109
+        },
+        {
+          "file": "snapshot-2014.json.gz",
+          "rows": 131
+        },
+        {
+          "file": "snapshot-2015.json.gz",
+          "rows": 116
+        },
+        {
+          "file": "snapshot-2016.json.gz",
+          "rows": 90
+        },
+        {
+          "file": "snapshot-2017.json.gz",
+          "rows": 104
+        },
+        {
+          "file": "snapshot-2018.json.gz",
+          "rows": 90
+        },
+        {
+          "file": "snapshot-2019.json.gz",
+          "rows": 128
+        },
+        {
+          "file": "snapshot-2020.json.gz",
+          "rows": 138
+        },
+        {
+          "file": "snapshot-2021.json.gz",
+          "rows": 112
+        },
+        {
+          "file": "snapshot-2022.json.gz",
+          "rows": 92
+        },
+        {
+          "file": "snapshot-2023.json.gz",
+          "rows": 138
+        },
+        {
+          "file": "snapshot-2024.json.gz",
+          "rows": 142
+        },
+        {
+          "file": "snapshot-2025.json.gz",
+          "rows": 152
+        },
+        {
+          "file": "snapshot-2026.json.gz",
+          "rows": 81
+        },
+        {
+          "file": "snapshot.json.gz",
+          "rows": 2679
+        }
+      ],
+      "feed": "fed/communications/feed.xml",
+      "entityFeeds": {
+        "byTicker": 0,
+        "byMember": 0
+      }
+    }
+  },
+  "sources": {
+    "edgar": {
+      "implementedDatasets": [
+        "insider-transactions",
+        "thirteenf-holdings"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T19:18:28.757Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {
+        "daily-index.lastCompletedDay": "2026-09-14"
+      }
+    },
+    "edgar-bulk": {
+      "implementedDatasets": [],
+      "lastSyncOk": null,
+      "lastSyncAt": null,
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "senate-efd": {
+      "implementedDatasets": [
+        "congress-trades"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T19:17:22.549Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {
+        "efd.lastFiledDate": "2026-09-14"
+      }
+    },
+    "house-clerk": {
+      "implementedDatasets": [
+        "congress-trades"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T19:17:27.151Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {
+        "clerk.lastFiledDate": "2026-09-14"
+      }
+    },
+    "usaspending": {
+      "implementedDatasets": [
+        "gov-contracts",
+        "gov-grants"
+      ],
+      "lastSyncOk": null,
+      "lastSyncAt": "2026-09-15T18:06:44.655Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "lda": {
+      "implementedDatasets": [
+        "lobbying-filings"
+      ],
+      "lastSyncOk": null,
+      "lastSyncAt": null,
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "finra": {
+      "implementedDatasets": [
+        "short-volume"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T19:17:37.325Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {
+        "shortvol.CNMS.lastDay": "2026-09-14"
+      }
+    },
+    "congress-legislators": {
+      "implementedDatasets": [
+        "committee-assignments"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T17:03:16.456Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "patentsview": {
+      "implementedDatasets": [
+        "patents"
+      ],
+      "lastSyncOk": null,
+      "lastSyncAt": null,
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "clinicaltrials": {
+      "implementedDatasets": [
+        "clinical-trials"
+      ],
+      "lastSyncOk": null,
+      "lastSyncAt": null,
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "openfda": {
+      "implementedDatasets": [
+        "fda-approvals"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T19:17:35.242Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {
+        "openfda.lastStatusDate": "2026-09-10"
+      }
+    },
+    "cftc": {
+      "implementedDatasets": [
+        "cot-reports"
+      ],
+      "lastSyncOk": null,
+      "lastSyncAt": null,
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "wikimedia": {
+      "implementedDatasets": [
+        "wiki-pageviews"
+      ],
+      "lastSyncOk": null,
+      "lastSyncAt": null,
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "govinfo": {
+      "implementedDatasets": [
+        "bills"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T17:03:16.955Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {
+        "billstatus.119.hconres.lastModified": "2026-09-15T08:45:00.000Z",
+        "billstatus.119.hjres.lastModified": "2026-09-15T17:35:00.000Z",
+        "billstatus.119.hr.lastModified": "2026-09-15T12:25:00.000Z",
+        "billstatus.119.hres.lastModified": "2026-09-15T17:35:00.000Z",
+        "billstatus.119.s.lastModified": "2026-09-15T17:35:00.000Z",
+        "billstatus.119.sconres.lastModified": "2026-09-15T12:25:00.000Z",
+        "billstatus.119.sjres.lastModified": "2026-09-15T17:23:00.000Z",
+        "billstatus.119.sres.lastModified": "2026-09-15T17:23:00.000Z"
+      }
+    },
+    "fec": {
+      "implementedDatasets": [
+        "fec-candidates",
+        "fec-contributions"
+      ],
+      "lastSyncOk": null,
+      "lastSyncAt": null,
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    },
+    "govinfo-hearings": {
+      "implementedDatasets": [
+        "congress-hearings"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T18:06:41.262Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {
+        "sitemap.2026.lastmod": "2026-09-15T17:24:00.562Z"
+      }
+    },
+    "federalreserve": {
+      "implementedDatasets": [
+        "fed-communications"
+      ],
+      "lastSyncOk": true,
+      "lastSyncAt": "2026-09-15T19:17:33.773Z",
+      "lastCanaryStatus": null,
+      "lastCanaryAt": null,
+      "watermarks": {}
+    }
+  }
+}
