@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T07:54:49.565Z",
+  "generatedAt": "2026-09-16T08:20:12.431Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -110,8 +110,8 @@
     "gov-contracts": {
       "title": "Government contract awards",
       "exportDir": "contracts/awards",
-      "rows": 24555,
-      "lastIngestedAt": "2026-09-16T00:43:31.570Z",
+      "rows": 24559,
+      "lastIngestedAt": "2026-09-16T07:55:12.388Z",
       "stale": false,
       "snapshots": [
         {
@@ -188,7 +188,7 @@
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 23374
+          "rows": 23378
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -196,7 +196,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 24555
+          "rows": 24559
         }
       ],
       "feed": "contracts/awards/feed.xml",
@@ -636,8 +636,8 @@
         "gov-contracts",
         "gov-grants"
       ],
-      "lastSyncOk": true,
-      "lastSyncAt": "2026-09-16T00:43:31.568Z",
+      "lastSyncOk": null,
+      "lastSyncAt": "2026-09-16T07:55:12.386Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
