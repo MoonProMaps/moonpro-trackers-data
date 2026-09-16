@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-16T18:16:57.059Z",
+  "generatedAt": "2026-09-16T18:17:27.915Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
       "title": "Congressional trades",
       "exportDir": "congress/trades",
-      "rows": 440,
-      "lastIngestedAt": "2026-09-16T18:16:56.691Z",
+      "rows": 446,
+      "lastIngestedAt": "2026-09-16T18:17:27.535Z",
       "stale": false,
       "snapshots": [
         {
@@ -15,17 +15,17 @@
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 415
+          "rows": 421
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 440
+          "rows": 446
         }
       ],
       "feed": "congress/trades/feed.xml",
       "entityFeeds": {
         "byTicker": 200,
-        "byMember": 31
+        "byMember": 32
       }
     },
     "insider-transactions": {
@@ -624,11 +624,11 @@
         "congress-trades"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-16T13:37:26.135Z",
+      "lastSyncAt": "2026-09-16T18:17:20.487Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "clerk.lastFiledDate": "2026-09-14"
+        "clerk.lastFiledDate": "2026-09-15"
       }
     },
     "usaspending": {
