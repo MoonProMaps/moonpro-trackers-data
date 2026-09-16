@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T18:20:28.072Z",
+  "generatedAt": "2026-09-16T18:20:53.484Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -857,11 +857,11 @@
         "congress-hearings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-16T13:40:50.504Z",
+      "lastSyncAt": "2026-09-16T18:20:52.787Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "sitemap.2025.lastmod": "2026-09-15T17:24:00.520Z",
+        "sitemap.2025.lastmod": "2026-09-16T14:55:00.085Z",
         "sitemap.2026.lastmod": "2026-09-16T13:00:00.046Z"
       }
     },
