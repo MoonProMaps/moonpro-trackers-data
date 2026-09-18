@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:22:27.275Z",
+  "generatedAt": "2026-09-18T13:23:42.560Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -366,8 +366,8 @@
     "bills": {
       "title": "Federal legislation",
       "exportDir": "congress/bills",
-      "rows": 18881,
-      "lastIngestedAt": "2026-09-18T07:43:41.486Z",
+      "rows": 18923,
+      "lastIngestedAt": "2026-09-18T13:22:49.683Z",
       "stale": false,
       "snapshots": [
         {
@@ -392,15 +392,15 @@
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 11159
+          "rows": 11153
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 7644
+          "rows": 7692
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 18881
+          "rows": 18923
         }
       ],
       "feed": "congress/bills/feed.xml",
@@ -821,18 +821,18 @@
         "bills"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-18T07:43:41.484Z",
+      "lastSyncAt": "2026-09-18T13:22:49.681Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "billstatus.119.hconres.lastModified": "2026-09-18T04:18:00.000Z",
-        "billstatus.119.hjres.lastModified": "2026-09-18T04:21:00.000Z",
-        "billstatus.119.hr.lastModified": "2026-09-18T04:21:00.000Z",
-        "billstatus.119.hres.lastModified": "2026-09-18T04:21:00.000Z",
-        "billstatus.119.s.lastModified": "2026-09-18T02:37:00.000Z",
+        "billstatus.119.hconres.lastModified": "2026-09-18T08:27:00.000Z",
+        "billstatus.119.hjres.lastModified": "2026-09-18T08:26:00.000Z",
+        "billstatus.119.hr.lastModified": "2026-09-18T12:18:00.000Z",
+        "billstatus.119.hres.lastModified": "2026-09-18T12:16:00.000Z",
+        "billstatus.119.s.lastModified": "2026-09-18T12:27:00.000Z",
         "billstatus.119.sconres.lastModified": "2026-09-15T12:25:00.000Z",
-        "billstatus.119.sjres.lastModified": "2026-09-17T12:33:00.000Z",
-        "billstatus.119.sres.lastModified": "2026-09-17T20:25:00.000Z"
+        "billstatus.119.sjres.lastModified": "2026-09-18T12:17:00.000Z",
+        "billstatus.119.sres.lastModified": "2026-09-18T12:17:00.000Z"
       }
     },
     "fec": {
