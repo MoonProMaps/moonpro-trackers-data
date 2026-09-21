@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:38:36.893Z",
+  "generatedAt": "2026-09-21T19:38:59.244Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -344,17 +344,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 2123,
-      "lastIngestedAt": "2026-09-21T13:04:38.886Z",
+      "rows": 2124,
+      "lastIngestedAt": "2026-09-21T19:38:58.810Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 2123
+          "rows": 2124
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 2123
+          "rows": 2124
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,12 +721,12 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-21T13:04:38.798Z",
+      "lastSyncAt": "2026-09-21T19:38:58.808Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "pageviews.en.wikipedia.AT&T.lastDay": "2026-09-20",
-        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-09-19",
+        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-09-20",
         "pageviews.en.wikipedia.Abbott_Laboratories.lastDay": "2026-09-20",
         "pageviews.en.wikipedia.Adobe_Inc..lastDay": "2026-09-20",
         "pageviews.en.wikipedia.Advanced_Micro_Devices.lastDay": "2026-09-20",
