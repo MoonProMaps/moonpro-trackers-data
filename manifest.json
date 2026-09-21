@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T13:06:34.001Z",
+  "generatedAt": "2026-09-21T13:07:44.842Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -111,7 +111,7 @@
       "title": "Government contract awards",
       "exportDir": "contracts/awards",
       "rows": 24600,
-      "lastIngestedAt": "2026-09-21T05:20:21.445Z",
+      "lastIngestedAt": "2026-09-21T13:06:53.252Z",
       "stale": false,
       "snapshots": [
         {
@@ -633,7 +633,7 @@
         "gov-grants"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-21T05:20:21.443Z",
+      "lastSyncAt": "2026-09-21T13:06:53.250Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
