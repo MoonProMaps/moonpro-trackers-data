@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T17:08:12.291Z",
+  "generatedAt": "2026-09-22T17:08:38.484Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -344,17 +344,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 2140,
-      "lastIngestedAt": "2026-09-22T11:55:17.144Z",
+      "rows": 2142,
+      "lastIngestedAt": "2026-09-22T17:08:37.821Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 2140
+          "rows": 2142
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 2140
+          "rows": 2142
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,7 +721,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-22T11:55:17.142Z",
+      "lastSyncAt": "2026-09-22T17:08:37.819Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -765,7 +765,7 @@
         "pageviews.en.wikipedia.Honeywell.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.IBM.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.Intel.lastDay": "2026-09-21",
-        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-09-20",
+        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.JPMorgan_Chase.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.Johnson_&_Johnson.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-09-21",
@@ -799,7 +799,7 @@
         "pageviews.en.wikipedia.ServiceNow.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.Snowflake_Inc..lastDay": "2026-09-21",
         "pageviews.en.wikipedia.Starbucks.lastDay": "2026-09-21",
-        "pageviews.en.wikipedia.Target_Corporation.lastDay": "2026-09-20",
+        "pageviews.en.wikipedia.Target_Corporation.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.Texas_Instruments.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.The_Coca-Cola_Company.lastDay": "2026-09-21",
         "pageviews.en.wikipedia.The_Home_Depot.lastDay": "2026-09-21",
