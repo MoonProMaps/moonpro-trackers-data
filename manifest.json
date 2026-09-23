@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T13:49:08.064Z",
+  "generatedAt": "2026-09-23T13:49:36.398Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -853,7 +853,7 @@
         "congress-hearings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-23T07:57:23.272Z",
+      "lastSyncAt": "2026-09-23T13:49:35.835Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
