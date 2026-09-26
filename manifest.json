@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T16:33:17.190Z",
+  "generatedAt": "2026-09-26T16:33:42.310Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -344,17 +344,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 2355,
-      "lastIngestedAt": "2026-09-26T11:36:39.341Z",
+      "rows": 2356,
+      "lastIngestedAt": "2026-09-26T16:33:41.749Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 2355
+          "rows": 2356
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 2355
+          "rows": 2356
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,7 +721,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-26T11:36:39.340Z",
+      "lastSyncAt": "2026-09-26T16:33:41.747Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -777,7 +777,7 @@
         "pageviews.en.wikipedia.Meta_Platforms.lastDay": "2026-09-25",
         "pageviews.en.wikipedia.Micron_Technology.lastDay": "2026-09-25",
         "pageviews.en.wikipedia.Microsoft.lastDay": "2026-09-25",
-        "pageviews.en.wikipedia.Moderna.lastDay": "2026-09-24",
+        "pageviews.en.wikipedia.Moderna.lastDay": "2026-09-25",
         "pageviews.en.wikipedia.Morgan_Stanley.lastDay": "2026-09-25",
         "pageviews.en.wikipedia.Netflix.lastDay": "2026-09-25",
         "pageviews.en.wikipedia.Nike,_Inc..lastDay": "2026-09-25",
