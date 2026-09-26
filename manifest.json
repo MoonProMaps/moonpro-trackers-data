@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T23:33:55.485Z",
+  "generatedAt": "2026-09-26T05:10:58.424Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -31,8 +31,8 @@
     "insider-transactions": {
       "title": "Insider transactions",
       "exportDir": "insider/transactions",
-      "rows": 37598,
-      "lastIngestedAt": "2026-09-25T07:59:18.540Z",
+      "rows": 38472,
+      "lastIngestedAt": "2026-09-26T05:10:57.983Z",
       "stale": false,
       "snapshots": [
         {
@@ -73,11 +73,11 @@
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 62
+          "rows": 65
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 37479
+          "rows": 38350
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -85,7 +85,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 37598
+          "rows": 38472
         }
       ],
       "feed": "insider/transactions/feed.xml",
@@ -201,7 +201,7 @@
       ],
       "feed": "contracts/awards/feed.xml",
       "entityFeeds": {
-        "byTicker": 116,
+        "byTicker": 94,
         "byMember": 0
       }
     },
@@ -588,11 +588,11 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-25T23:21:12.682Z",
+      "lastSyncAt": "2026-09-26T05:09:36.632Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "daily-index.lastCompletedDay": "2026-09-24"
+        "daily-index.lastCompletedDay": "2026-09-25"
       }
     },
     "edgar-bulk": {
