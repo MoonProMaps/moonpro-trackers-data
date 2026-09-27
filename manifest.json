@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T14:09:09.017Z",
+  "generatedAt": "2026-09-27T14:09:34.522Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -344,17 +344,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 2372,
-      "lastIngestedAt": "2026-09-27T08:24:07.186Z",
+      "rows": 2375,
+      "lastIngestedAt": "2026-09-27T14:09:33.858Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 2372
+          "rows": 2375
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 2372
+          "rows": 2375
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,12 +721,12 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-27T08:24:07.184Z",
+      "lastSyncAt": "2026-09-27T14:09:33.856Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "pageviews.en.wikipedia.AT&T.lastDay": "2026-09-26",
-        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-09-25",
+        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Abbott_Laboratories.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Adobe_Inc..lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Advanced_Micro_Devices.lastDay": "2026-09-26",
@@ -772,7 +772,7 @@
         "pageviews.en.wikipedia.Mastercard.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.McDonald's.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Medtronic.lastDay": "2026-09-26",
-        "pageviews.en.wikipedia.Merck_&_Co..lastDay": "2026-09-25",
+        "pageviews.en.wikipedia.Merck_&_Co..lastDay": "2026-09-26",
         "pageviews.en.wikipedia.MetLife.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Meta_Platforms.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Micron_Technology.lastDay": "2026-09-26",
@@ -811,7 +811,7 @@
         "pageviews.en.wikipedia.Verizon_Communications.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Vertex_Pharmaceuticals.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Visa_Inc..lastDay": "2026-09-26",
-        "pageviews.en.wikipedia.Walmart.lastDay": "2026-09-25",
+        "pageviews.en.wikipedia.Walmart.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.Wells_Fargo.lastDay": "2026-09-26",
         "pageviews.en.wikipedia.eBay.lastDay": "2026-09-26"
       }
