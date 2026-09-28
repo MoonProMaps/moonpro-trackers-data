@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T23:15:21.674Z",
+  "generatedAt": "2026-09-28T05:37:02.012Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -25,7 +25,7 @@
       "feed": "congress/trades/feed.xml",
       "entityFeeds": {
         "byTicker": 200,
-        "byMember": 37
+        "byMember": 36
       }
     },
     "insider-transactions": {
@@ -588,7 +588,7 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-27T23:08:28.328Z",
+      "lastSyncAt": "2026-09-28T05:35:15.449Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
