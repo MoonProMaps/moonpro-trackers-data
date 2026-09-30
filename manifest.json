@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T05:48:07.391Z",
+  "generatedAt": "2026-09-30T05:48:38.306Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -310,7 +310,7 @@
       "title": "FDA drug application events",
       "exportDir": "fda/approvals",
       "rows": 892,
-      "lastIngestedAt": "2026-09-29T22:28:20.637Z",
+      "lastIngestedAt": "2026-09-30T05:48:37.237Z",
       "stale": false,
       "snapshots": [
         {
@@ -699,7 +699,7 @@
         "fda-approvals"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-29T22:28:20.636Z",
+      "lastSyncAt": "2026-09-30T05:48:37.236Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
