@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T19:32:48.364Z",
+  "generatedAt": "2026-09-30T19:33:12.271Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -344,17 +344,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 2569,
-      "lastIngestedAt": "2026-09-30T12:51:19.215Z",
+      "rows": 2571,
+      "lastIngestedAt": "2026-09-30T19:33:11.678Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 2569
+          "rows": 2571
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 2569
+          "rows": 2571
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,7 +721,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-09-30T12:51:19.214Z",
+      "lastSyncAt": "2026-09-30T19:33:11.677Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -765,7 +765,7 @@
         "pageviews.en.wikipedia.Honeywell.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.IBM.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.Intel.lastDay": "2026-09-29",
-        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-09-28",
+        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.JPMorgan_Chase.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.Johnson_&_Johnson.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-09-29",
@@ -777,7 +777,7 @@
         "pageviews.en.wikipedia.Meta_Platforms.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.Micron_Technology.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.Microsoft.lastDay": "2026-09-29",
-        "pageviews.en.wikipedia.Moderna.lastDay": "2026-09-28",
+        "pageviews.en.wikipedia.Moderna.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.Morgan_Stanley.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.Netflix.lastDay": "2026-09-29",
         "pageviews.en.wikipedia.Nike,_Inc..lastDay": "2026-09-29",
