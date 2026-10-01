@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T13:35:38.684Z",
+  "generatedAt": "2026-10-01T13:36:01.917Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -344,17 +344,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 2589,
-      "lastIngestedAt": "2026-10-01T06:15:33.341Z",
+      "rows": 2590,
+      "lastIngestedAt": "2026-10-01T13:36:01.506Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 2589
+          "rows": 2590
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 2589
+          "rows": 2590
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,7 +721,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-01T06:15:33.340Z",
+      "lastSyncAt": "2026-10-01T13:36:01.505Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -765,7 +765,7 @@
         "pageviews.en.wikipedia.Honeywell.lastDay": "2026-09-30",
         "pageviews.en.wikipedia.IBM.lastDay": "2026-09-30",
         "pageviews.en.wikipedia.Intel.lastDay": "2026-09-30",
-        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-09-29",
+        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-09-30",
         "pageviews.en.wikipedia.JPMorgan_Chase.lastDay": "2026-09-30",
         "pageviews.en.wikipedia.Johnson_&_Johnson.lastDay": "2026-09-30",
         "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-09-30",
