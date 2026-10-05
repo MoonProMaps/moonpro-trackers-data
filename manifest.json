@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T22:50:29.411Z",
+  "generatedAt": "2026-10-05T22:50:54.709Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -837,7 +837,7 @@
         "fec-contributions"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-05T15:05:07.764Z",
+      "lastSyncAt": "2026-10-05T22:50:54.389Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
