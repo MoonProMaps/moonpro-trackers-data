@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T13:51:18.748Z",
+  "generatedAt": "2026-10-08T13:52:03.756Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -291,17 +291,17 @@
     "clinical-trials": {
       "title": "Clinical trial registrations",
       "exportDir": "clinical-trials/studies",
-      "rows": 28510,
-      "lastIngestedAt": "2026-10-08T06:33:18.956Z",
+      "rows": 29161,
+      "lastIngestedAt": "2026-10-08T13:51:53.405Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 28510
+          "rows": 29161
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 28510
+          "rows": 29161
         }
       ],
       "feed": "clinical-trials/studies/feed.xml",
@@ -687,11 +687,11 @@
         "clinical-trials"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-08T06:33:18.955Z",
+      "lastSyncAt": "2026-10-08T13:51:53.402Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "clinicaltrials.lastUpdatePosted": "2026-10-07"
+        "clinicaltrials.lastUpdatePosted": "2026-10-08"
       }
     },
     "openfda": {
