@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T23:21:47.817Z",
+  "generatedAt": "2026-10-08T06:21:44.640Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -25,14 +25,14 @@
       "feed": "congress/trades/feed.xml",
       "entityFeeds": {
         "byTicker": 200,
-        "byMember": 34
+        "byMember": 32
       }
     },
     "insider-transactions": {
       "title": "Insider transactions",
       "exportDir": "insider/transactions",
-      "rows": 51176,
-      "lastIngestedAt": "2026-10-07T08:53:28.483Z",
+      "rows": 52302,
+      "lastIngestedAt": "2026-10-08T06:19:57.903Z",
       "stale": false,
       "snapshots": [
         {
@@ -44,40 +44,44 @@
           "rows": 1
         },
         {
-          "file": "snapshot-2018.json.gz",
-          "rows": 2
-        },
-        {
-          "file": "snapshot-2019.json.gz",
-          "rows": 2
-        },
-        {
-          "file": "snapshot-2020.json.gz",
-          "rows": 3
-        },
-        {
-          "file": "snapshot-2021.json.gz",
+          "file": "snapshot-2017.json.gz",
           "rows": 1
         },
         {
+          "file": "snapshot-2018.json.gz",
+          "rows": 3
+        },
+        {
+          "file": "snapshot-2019.json.gz",
+          "rows": 3
+        },
+        {
+          "file": "snapshot-2020.json.gz",
+          "rows": 4
+        },
+        {
+          "file": "snapshot-2021.json.gz",
+          "rows": 2
+        },
+        {
           "file": "snapshot-2022.json.gz",
-          "rows": 8
+          "rows": 9
         },
         {
           "file": "snapshot-2023.json.gz",
-          "rows": 14
+          "rows": 15
         },
         {
           "file": "snapshot-2024.json.gz",
-          "rows": 39
+          "rows": 43
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 89
+          "rows": 162
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 51015
+          "rows": 52057
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -85,7 +89,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 51176
+          "rows": 52302
         }
       ],
       "feed": "insider/transactions/feed.xml",
@@ -201,7 +205,7 @@
       ],
       "feed": "contracts/awards/feed.xml",
       "entityFeeds": {
-        "byTicker": 94,
+        "byTicker": 74,
         "byMember": 0
       }
     },
@@ -584,11 +588,11 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-07T23:11:53.514Z",
+      "lastSyncAt": "2026-10-08T06:18:41.596Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "daily-index.lastCompletedDay": "2026-10-06"
+        "daily-index.lastCompletedDay": "2026-10-07"
       }
     },
     "edgar-bulk": {
