@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:08:00.562Z",
+  "generatedAt": "2026-10-08T20:08:47.187Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -371,7 +371,7 @@
       "title": "Federal legislation",
       "exportDir": "congress/bills",
       "rows": 19596,
-      "lastIngestedAt": "2026-10-08T13:54:48.659Z",
+      "lastIngestedAt": "2026-10-08T20:08:24.684Z",
       "stale": false,
       "snapshots": [
         {
@@ -392,11 +392,11 @@
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 11088
+          "rows": 11075
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 8314
+          "rows": 8327
         },
         {
           "file": "snapshot.json.gz",
@@ -821,18 +821,18 @@
         "bills"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-08T13:54:48.657Z",
+      "lastSyncAt": "2026-10-08T20:08:24.683Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "billstatus.119.hconres.lastModified": "2026-10-07T20:26:00.000Z",
         "billstatus.119.hjres.lastModified": "2026-10-06T08:43:00.000Z",
-        "billstatus.119.hr.lastModified": "2026-10-08T08:16:00.000Z",
-        "billstatus.119.hres.lastModified": "2026-10-08T00:18:00.000Z",
-        "billstatus.119.s.lastModified": "2026-10-08T12:16:00.000Z",
+        "billstatus.119.hr.lastModified": "2026-10-08T16:23:00.000Z",
+        "billstatus.119.hres.lastModified": "2026-10-08T16:23:00.000Z",
+        "billstatus.119.s.lastModified": "2026-10-08T16:24:00.000Z",
         "billstatus.119.sconres.lastModified": "2026-10-02T16:18:00.000Z",
         "billstatus.119.sjres.lastModified": "2026-10-06T08:16:00.000Z",
-        "billstatus.119.sres.lastModified": "2026-10-07T20:26:00.000Z"
+        "billstatus.119.sres.lastModified": "2026-10-08T16:23:00.000Z"
       }
     },
     "fec": {
