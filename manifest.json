@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-09T17:05:08.117Z",
+  "generatedAt": "2026-10-09T17:05:41.866Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
       "title": "Congressional trades",
       "exportDir": "congress/trades",
       "rows": 704,
-      "lastIngestedAt": "2026-10-09T09:20:07.127Z",
+      "lastIngestedAt": "2026-10-09T17:05:41.580Z",
       "stale": false,
       "snapshots": [
         {
@@ -608,7 +608,7 @@
         "congress-trades"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-09T09:20:04.709Z",
+      "lastSyncAt": "2026-10-09T17:05:39.115Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
