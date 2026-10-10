@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T22:54:35.285Z",
+  "generatedAt": "2026-10-10T06:04:17.087Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -31,8 +31,8 @@
     "insider-transactions": {
       "title": "Insider transactions",
       "exportDir": "insider/transactions",
-      "rows": 53426,
-      "lastIngestedAt": "2026-10-09T09:17:42.302Z",
+      "rows": 54310,
+      "lastIngestedAt": "2026-10-10T06:04:16.635Z",
       "stale": false,
       "snapshots": [
         {
@@ -45,31 +45,31 @@
         },
         {
           "file": "snapshot-2017.json.gz",
-          "rows": 1
-        },
-        {
-          "file": "snapshot-2018.json.gz",
-          "rows": 3
-        },
-        {
-          "file": "snapshot-2019.json.gz",
-          "rows": 3
-        },
-        {
-          "file": "snapshot-2020.json.gz",
-          "rows": 4
-        },
-        {
-          "file": "snapshot-2021.json.gz",
           "rows": 2
         },
         {
+          "file": "snapshot-2018.json.gz",
+          "rows": 4
+        },
+        {
+          "file": "snapshot-2019.json.gz",
+          "rows": 4
+        },
+        {
+          "file": "snapshot-2020.json.gz",
+          "rows": 5
+        },
+        {
+          "file": "snapshot-2021.json.gz",
+          "rows": 3
+        },
+        {
           "file": "snapshot-2022.json.gz",
-          "rows": 13
+          "rows": 14
         },
         {
           "file": "snapshot-2023.json.gz",
-          "rows": 15
+          "rows": 16
         },
         {
           "file": "snapshot-2024.json.gz",
@@ -77,11 +77,11 @@
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 163
+          "rows": 164
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 53175
+          "rows": 54051
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -89,7 +89,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 53426
+          "rows": 54310
         }
       ],
       "feed": "insider/transactions/feed.xml",
@@ -588,11 +588,11 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-09T22:45:03.388Z",
+      "lastSyncAt": "2026-10-10T06:02:49.969Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "daily-index.lastCompletedDay": "2026-10-08"
+        "daily-index.lastCompletedDay": "2026-10-09"
       }
     },
     "edgar-bulk": {
