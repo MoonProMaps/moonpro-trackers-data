@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:45:46.947Z",
+  "generatedAt": "2026-10-10T18:46:23.971Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -348,17 +348,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 3108,
-      "lastIngestedAt": "2026-10-10T12:47:22.775Z",
+      "rows": 3110,
+      "lastIngestedAt": "2026-10-10T18:46:23.400Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 3108
+          "rows": 3110
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 3108
+          "rows": 3110
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,12 +721,12 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-10T12:47:22.773Z",
+      "lastSyncAt": "2026-10-10T18:46:23.398Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "pageviews.en.wikipedia.AT&T.lastDay": "2026-10-09",
-        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-10-08",
+        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-10-09",
         "pageviews.en.wikipedia.Abbott_Laboratories.lastDay": "2026-10-09",
         "pageviews.en.wikipedia.Adobe_Inc..lastDay": "2026-10-09",
         "pageviews.en.wikipedia.Advanced_Micro_Devices.lastDay": "2026-10-09",
@@ -772,7 +772,7 @@
         "pageviews.en.wikipedia.Mastercard.lastDay": "2026-10-09",
         "pageviews.en.wikipedia.McDonald's.lastDay": "2026-10-09",
         "pageviews.en.wikipedia.Medtronic.lastDay": "2026-10-09",
-        "pageviews.en.wikipedia.Merck_&_Co..lastDay": "2026-10-08",
+        "pageviews.en.wikipedia.Merck_&_Co..lastDay": "2026-10-09",
         "pageviews.en.wikipedia.MetLife.lastDay": "2026-10-09",
         "pageviews.en.wikipedia.Meta_Platforms.lastDay": "2026-10-09",
         "pageviews.en.wikipedia.Micron_Technology.lastDay": "2026-10-09",
