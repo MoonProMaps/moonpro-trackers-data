@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T23:14:36.108Z",
+  "generatedAt": "2026-10-13T06:57:29.432Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -33,7 +33,7 @@
       "exportDir": "insider/transactions",
       "rows": 54310,
       "lastIngestedAt": "2026-10-10T06:04:16.635Z",
-      "stale": false,
+      "stale": true,
       "snapshots": [
         {
           "file": "snapshot-2006.json.gz",
@@ -588,7 +588,7 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-12T23:04:44.428Z",
+      "lastSyncAt": "2026-10-13T06:53:56.916Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
