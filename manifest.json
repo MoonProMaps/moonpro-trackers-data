@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T13:25:58.555Z",
+  "generatedAt": "2026-10-16T13:26:37.946Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -348,17 +348,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 3499,
-      "lastIngestedAt": "2026-10-16T07:27:01.895Z",
+      "rows": 3502,
+      "lastIngestedAt": "2026-10-16T13:26:37.394Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 3499
+          "rows": 3502
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 3499
+          "rows": 3502
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,7 +721,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-16T07:27:01.893Z",
+      "lastSyncAt": "2026-10-16T13:26:37.392Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -765,7 +765,7 @@
         "pageviews.en.wikipedia.Honeywell.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.IBM.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Intel.lastDay": "2026-10-15",
-        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-10-14",
+        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.JPMorgan_Chase.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Johnson_&_Johnson.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-10-15",
@@ -777,7 +777,7 @@
         "pageviews.en.wikipedia.Meta_Platforms.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Micron_Technology.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Microsoft.lastDay": "2026-10-15",
-        "pageviews.en.wikipedia.Moderna.lastDay": "2026-10-14",
+        "pageviews.en.wikipedia.Moderna.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Morgan_Stanley.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Netflix.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Nike,_Inc..lastDay": "2026-10-15",
@@ -811,7 +811,7 @@
         "pageviews.en.wikipedia.Verizon_Communications.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Vertex_Pharmaceuticals.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Visa_Inc..lastDay": "2026-10-15",
-        "pageviews.en.wikipedia.Walmart.lastDay": "2026-10-14",
+        "pageviews.en.wikipedia.Walmart.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.Wells_Fargo.lastDay": "2026-10-15",
         "pageviews.en.wikipedia.eBay.lastDay": "2026-10-15"
       }
