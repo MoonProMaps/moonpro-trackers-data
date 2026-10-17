@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:19:25.251Z",
+  "generatedAt": "2026-10-17T12:20:04.726Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -721,12 +721,12 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-17T07:08:06.731Z",
+      "lastSyncAt": "2026-10-17T12:20:04.064Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "pageviews.en.wikipedia.AT&T.lastDay": "2026-10-16",
-        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-10-15",
+        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Abbott_Laboratories.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Adobe_Inc..lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Advanced_Micro_Devices.lastDay": "2026-10-16",
@@ -765,7 +765,7 @@
         "pageviews.en.wikipedia.Honeywell.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.IBM.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Intel.lastDay": "2026-10-16",
-        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-10-15",
+        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.JPMorgan_Chase.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Johnson_&_Johnson.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-10-16",
@@ -811,7 +811,7 @@
         "pageviews.en.wikipedia.Verizon_Communications.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Vertex_Pharmaceuticals.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Visa_Inc..lastDay": "2026-10-16",
-        "pageviews.en.wikipedia.Walmart.lastDay": "2026-10-15",
+        "pageviews.en.wikipedia.Walmart.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.Wells_Fargo.lastDay": "2026-10-16",
         "pageviews.en.wikipedia.eBay.lastDay": "2026-10-16"
       }
