@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T20:03:59.128Z",
+  "generatedAt": "2026-10-19T20:04:40.166Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -482,7 +482,7 @@
       "title": "Federal Reserve communications",
       "exportDir": "fed/communications",
       "rows": 2698,
-      "lastIngestedAt": "2026-10-19T13:41:02.753Z",
+      "lastIngestedAt": "2026-10-19T20:04:38.630Z",
       "stale": false,
       "snapshots": [
         {
@@ -866,7 +866,7 @@
         "fed-communications"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-19T13:41:02.751Z",
+      "lastSyncAt": "2026-10-19T20:04:38.628Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {}
