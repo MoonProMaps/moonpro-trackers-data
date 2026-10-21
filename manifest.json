@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T18:55:46.153Z",
+  "generatedAt": "2026-10-21T23:29:04.655Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -588,7 +588,7 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-21T18:45:37.445Z",
+      "lastSyncAt": "2026-10-21T23:27:17.864Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
