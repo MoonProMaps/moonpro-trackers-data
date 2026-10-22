@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T23:37:25.760Z",
+  "generatedAt": "2026-10-22T05:05:55.386Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -24,15 +24,15 @@
       ],
       "feed": "congress/trades/feed.xml",
       "entityFeeds": {
-        "byTicker": 200,
+        "byTicker": 179,
         "byMember": 36
       }
     },
     "insider-transactions": {
       "title": "Insider transactions",
       "exportDir": "insider/transactions",
-      "rows": 61333,
-      "lastIngestedAt": "2026-10-21T07:49:56.959Z",
+      "rows": 62097,
+      "lastIngestedAt": "2026-10-22T05:04:08.188Z",
       "stale": false,
       "snapshots": [
         {
@@ -61,27 +61,27 @@
         },
         {
           "file": "snapshot-2021.json.gz",
-          "rows": 3
+          "rows": 6
         },
         {
           "file": "snapshot-2022.json.gz",
-          "rows": 14
+          "rows": 18
         },
         {
           "file": "snapshot-2023.json.gz",
-          "rows": 17
+          "rows": 21
         },
         {
           "file": "snapshot-2024.json.gz",
-          "rows": 49
+          "rows": 53
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 194
+          "rows": 200
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 61036
+          "rows": 61779
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -89,7 +89,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 61333
+          "rows": 62097
         }
       ],
       "feed": "insider/transactions/feed.xml",
@@ -588,11 +588,11 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-21T23:27:17.864Z",
+      "lastSyncAt": "2026-10-22T05:03:15.399Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "daily-index.lastCompletedDay": "2026-10-20"
+        "daily-index.lastCompletedDay": "2026-10-21"
       }
     },
     "edgar-bulk": {
