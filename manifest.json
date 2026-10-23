@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T07:53:26.280Z",
+  "generatedAt": "2026-10-23T07:54:19.143Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -371,12 +371,12 @@
       "title": "Federal legislation",
       "exportDir": "congress/bills",
       "rows": 19710,
-      "lastIngestedAt": "2026-10-23T01:03:58.290Z",
+      "lastIngestedAt": "2026-10-23T07:54:04.364Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2021.json.gz",
-          "rows": 34
+          "rows": 36
         },
         {
           "file": "snapshot-2022.json.gz",
@@ -392,11 +392,11 @@
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 11059
+          "rows": 11058
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 8394
+          "rows": 8393
         },
         {
           "file": "snapshot.json.gz",
@@ -821,17 +821,17 @@
         "bills"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-23T01:03:58.289Z",
+      "lastSyncAt": "2026-10-23T07:54:04.362Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "billstatus.119.hconres.lastModified": "2026-10-16T20:18:00.000Z",
         "billstatus.119.hjres.lastModified": "2026-10-20T16:19:00.000Z",
-        "billstatus.119.hr.lastModified": "2026-10-23T00:24:00.000Z",
-        "billstatus.119.hres.lastModified": "2026-10-23T00:24:00.000Z",
-        "billstatus.119.s.lastModified": "2026-10-23T00:29:00.000Z",
+        "billstatus.119.hr.lastModified": "2026-10-23T04:25:00.000Z",
+        "billstatus.119.hres.lastModified": "2026-10-23T04:23:00.000Z",
+        "billstatus.119.s.lastModified": "2026-10-23T04:24:00.000Z",
         "billstatus.119.sconres.lastModified": "2026-10-17T00:19:00.000Z",
-        "billstatus.119.sjres.lastModified": "2026-10-23T00:24:00.000Z",
+        "billstatus.119.sjres.lastModified": "2026-10-23T04:23:00.000Z",
         "billstatus.119.sres.lastModified": "2026-10-22T16:19:00.000Z"
       }
     },
