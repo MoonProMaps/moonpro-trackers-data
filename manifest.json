@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T23:24:22.706Z",
+  "generatedAt": "2026-10-24T04:49:22.082Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -24,15 +24,15 @@
       ],
       "feed": "congress/trades/feed.xml",
       "entityFeeds": {
-        "byTicker": 176,
-        "byMember": 35
+        "byTicker": 172,
+        "byMember": 34
       }
     },
     "insider-transactions": {
       "title": "Insider transactions",
       "exportDir": "insider/transactions",
-      "rows": 62741,
-      "lastIngestedAt": "2026-10-23T07:43:16.616Z",
+      "rows": 63527,
+      "lastIngestedAt": "2026-10-24T04:49:21.701Z",
       "stale": false,
       "snapshots": [
         {
@@ -77,11 +77,11 @@
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 209
+          "rows": 211
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 62407
+          "rows": 63191
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -89,7 +89,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 62741
+          "rows": 63527
         }
       ],
       "feed": "insider/transactions/feed.xml",
@@ -328,7 +328,7 @@
       ],
       "feed": "fda/approvals/feed.xml",
       "entityFeeds": {
-        "byTicker": 11,
+        "byTicker": 9,
         "byMember": 0
       }
     },
@@ -588,11 +588,11 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-23T23:14:09.280Z",
+      "lastSyncAt": "2026-10-24T04:48:05.612Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "daily-index.lastCompletedDay": "2026-10-22"
+        "daily-index.lastCompletedDay": "2026-10-23"
       }
     },
     "edgar-bulk": {
