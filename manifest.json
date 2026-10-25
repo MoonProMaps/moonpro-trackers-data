@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T16:37:56.079Z",
+  "generatedAt": "2026-10-25T16:38:28.600Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -348,17 +348,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 3910,
-      "lastIngestedAt": "2026-10-25T11:49:24.104Z",
+      "rows": 3912,
+      "lastIngestedAt": "2026-10-25T16:38:28.159Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 3910
+          "rows": 3912
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 3910
+          "rows": 3912
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -721,7 +721,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-25T11:49:24.102Z",
+      "lastSyncAt": "2026-10-25T16:38:28.158Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -772,7 +772,7 @@
         "pageviews.en.wikipedia.Mastercard.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.McDonald's.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.Medtronic.lastDay": "2026-10-24",
-        "pageviews.en.wikipedia.Merck_&_Co..lastDay": "2026-10-23",
+        "pageviews.en.wikipedia.Merck_&_Co..lastDay": "2026-10-24",
         "pageviews.en.wikipedia.MetLife.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.Meta_Platforms.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.Micron_Technology.lastDay": "2026-10-24",
@@ -804,7 +804,7 @@
         "pageviews.en.wikipedia.The_Coca-Cola_Company.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.The_Home_Depot.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.The_Walt_Disney_Company.lastDay": "2026-10-24",
-        "pageviews.en.wikipedia.Thermo_Fisher_Scientific.lastDay": "2026-10-23",
+        "pageviews.en.wikipedia.Thermo_Fisher_Scientific.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.Uber.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.UnitedHealth_Group.lastDay": "2026-10-24",
         "pageviews.en.wikipedia.United_Parcel_Service.lastDay": "2026-10-24",
