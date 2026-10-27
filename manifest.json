@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T01:52:13.884Z",
+  "generatedAt": "2026-10-27T08:04:54.883Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -31,8 +31,8 @@
     "insider-transactions": {
       "title": "Insider transactions",
       "exportDir": "insider/transactions",
-      "rows": 63527,
-      "lastIngestedAt": "2026-10-24T04:49:21.701Z",
+      "rows": 64456,
+      "lastIngestedAt": "2026-10-27T08:03:08.331Z",
       "stale": false,
       "snapshots": [
         {
@@ -77,11 +77,11 @@
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 211
+          "rows": 213
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 63191
+          "rows": 64118
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -89,7 +89,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 63527
+          "rows": 64456
         }
       ],
       "feed": "insider/transactions/feed.xml",
@@ -588,11 +588,11 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-27T01:32:02.780Z",
+      "lastSyncAt": "2026-10-27T08:01:58.509Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "daily-index.lastCompletedDay": "2026-10-23"
+        "daily-index.lastCompletedDay": "2026-10-26"
       }
     },
     "edgar-bulk": {
