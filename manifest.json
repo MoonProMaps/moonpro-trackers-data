@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T19:50:28.084Z",
+  "generatedAt": "2026-10-29T19:51:03.385Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -857,12 +857,12 @@
         "congress-hearings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-29T13:28:52.421Z",
+      "lastSyncAt": "2026-10-29T19:51:02.748Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "sitemap.2025.lastmod": "2026-10-27T23:11:00.044Z",
-        "sitemap.2026.lastmod": "2026-10-29T13:13:00.716Z"
+        "sitemap.2025.lastmod": "2026-10-29T16:06:00.080Z",
+        "sitemap.2026.lastmod": "2026-10-29T16:08:00.036Z"
       }
     },
     "federalreserve": {
