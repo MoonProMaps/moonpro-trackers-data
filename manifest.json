@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T00:17:13.134Z",
+  "generatedAt": "2026-10-30T06:04:36.572Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -31,13 +31,13 @@
     "insider-transactions": {
       "title": "Insider transactions",
       "exportDir": "insider/transactions",
-      "rows": 66315,
-      "lastIngestedAt": "2026-10-29T06:01:38.441Z",
+      "rows": 67223,
+      "lastIngestedAt": "2026-10-30T06:02:50.238Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2006.json.gz",
-          "rows": 1
+          "rows": 2
         },
         {
           "file": "snapshot-2009.json.gz",
@@ -53,7 +53,7 @@
         },
         {
           "file": "snapshot-2018.json.gz",
-          "rows": 4
+          "rows": 5
         },
         {
           "file": "snapshot-2019.json.gz",
@@ -69,11 +69,11 @@
         },
         {
           "file": "snapshot-2022.json.gz",
-          "rows": 18
+          "rows": 26
         },
         {
           "file": "snapshot-2023.json.gz",
-          "rows": 24
+          "rows": 45
         },
         {
           "file": "snapshot-2024.json.gz",
@@ -85,7 +85,7 @@
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 65972
+          "rows": 66849
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -93,7 +93,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 66315
+          "rows": 67223
         }
       ],
       "feed": "insider/transactions/feed.xml",
@@ -592,11 +592,11 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-29T23:59:51.545Z",
+      "lastSyncAt": "2026-10-30T06:01:41.705Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "daily-index.lastCompletedDay": "2026-10-28"
+        "daily-index.lastCompletedDay": "2026-10-29"
       }
     },
     "edgar-bulk": {
