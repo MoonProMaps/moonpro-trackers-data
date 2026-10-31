@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T13:14:11.032Z",
+  "generatedAt": "2026-10-31T13:15:05.863Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -375,7 +375,7 @@
       "title": "Federal legislation",
       "exportDir": "congress/bills",
       "rows": 19821,
-      "lastIngestedAt": "2026-10-31T06:15:12.434Z",
+      "lastIngestedAt": "2026-10-31T13:14:55.174Z",
       "stale": false,
       "snapshots": [
         {
@@ -825,13 +825,13 @@
         "bills"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-10-31T06:15:12.254Z",
+      "lastSyncAt": "2026-10-31T13:14:55.172Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "billstatus.119.hconres.lastModified": "2026-10-30T14:20:00.000Z",
         "billstatus.119.hjres.lastModified": "2026-10-31T04:39:00.000Z",
-        "billstatus.119.hr.lastModified": "2026-10-31T04:45:00.000Z",
+        "billstatus.119.hr.lastModified": "2026-10-31T12:19:00.000Z",
         "billstatus.119.hres.lastModified": "2026-10-31T04:39:00.000Z",
         "billstatus.119.s.lastModified": "2026-10-31T04:45:00.000Z",
         "billstatus.119.sconres.lastModified": "2026-10-30T13:41:00.000Z",
