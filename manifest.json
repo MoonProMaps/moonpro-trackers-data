@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T09:51:43.205Z",
+  "generatedAt": "2026-11-02T20:26:50.174Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -7,7 +7,7 @@
       "exportDir": "congress/trades",
       "rows": 901,
       "lastIngestedAt": "2026-10-30T19:32:52.669Z",
-      "stale": false,
+      "stale": true,
       "snapshots": [
         {
           "file": "snapshot-2025.json.gz",
@@ -592,7 +592,7 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-02T09:39:13.703Z",
+      "lastSyncAt": "2026-11-02T20:25:03.639Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
