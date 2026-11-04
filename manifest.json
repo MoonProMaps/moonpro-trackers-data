@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T23:53:24.469Z",
+  "generatedAt": "2026-11-04T23:54:08.174Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -260,17 +260,17 @@
     "committee-assignments": {
       "title": "Congressional committee assignments",
       "exportDir": "congress/committees",
-      "rows": 3895,
-      "lastIngestedAt": "2026-11-04T18:11:14.067Z",
+      "rows": 3919,
+      "lastIngestedAt": "2026-11-04T23:54:07.192Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 3895
+          "rows": 3919
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 3895
+          "rows": 3919
         }
       ],
       "feed": "congress/committees/feed.xml",
@@ -671,7 +671,7 @@
         "committee-assignments"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-04T18:11:13.813Z",
+      "lastSyncAt": "2026-11-04T23:54:07.004Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {}
