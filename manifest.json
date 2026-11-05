@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:48:31.394Z",
+  "generatedAt": "2026-11-05T23:49:14.576Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -352,17 +352,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 4360,
-      "lastIngestedAt": "2026-11-05T16:40:04.210Z",
+      "rows": 4363,
+      "lastIngestedAt": "2026-11-05T23:49:14.020Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 4360
+          "rows": 4363
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 4360
+          "rows": 4363
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -725,7 +725,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-05T16:40:04.207Z",
+      "lastSyncAt": "2026-11-05T23:49:14.016Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -772,7 +772,7 @@
         "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.JPMorgan_Chase.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Johnson_&_Johnson.lastDay": "2026-11-04",
-        "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-11-03",
+        "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Mastercard.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.McDonald's.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Medtronic.lastDay": "2026-11-04",
@@ -796,7 +796,7 @@
         "pageviews.en.wikipedia.Progressive_Corporation.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Prudential_Financial.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Qualcomm.lastDay": "2026-11-04",
-        "pageviews.en.wikipedia.RTX_Corporation.lastDay": "2026-11-03",
+        "pageviews.en.wikipedia.RTX_Corporation.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Regeneron_Pharmaceuticals.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.S&P_Global.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Salesforce.lastDay": "2026-11-04",
@@ -806,7 +806,7 @@
         "pageviews.en.wikipedia.Target_Corporation.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Texas_Instruments.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.The_Coca-Cola_Company.lastDay": "2026-11-04",
-        "pageviews.en.wikipedia.The_Home_Depot.lastDay": "2026-11-03",
+        "pageviews.en.wikipedia.The_Home_Depot.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.The_Walt_Disney_Company.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Thermo_Fisher_Scientific.lastDay": "2026-11-04",
         "pageviews.en.wikipedia.Uber.lastDay": "2026-11-04",
