@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:54:59.343Z",
+  "generatedAt": "2026-11-06T07:03:27.714Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -24,15 +24,15 @@
       ],
       "feed": "congress/trades/feed.xml",
       "entityFeeds": {
-        "byTicker": 179,
+        "byTicker": 156,
         "byMember": 38
       }
     },
     "insider-transactions": {
       "title": "Insider transactions",
       "exportDir": "insider/transactions",
-      "rows": 74119,
-      "lastIngestedAt": "2026-11-05T07:02:48.982Z",
+      "rows": 75586,
+      "lastIngestedAt": "2026-11-06T07:01:41.083Z",
       "stale": false,
       "snapshots": [
         {
@@ -77,15 +77,15 @@
         },
         {
           "file": "snapshot-2024.json.gz",
-          "rows": 59
+          "rows": 65
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 237
+          "rows": 247
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 73721
+          "rows": 75172
         },
         {
           "file": "snapshot-2027.json.gz",
@@ -93,7 +93,7 @@
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 74119
+          "rows": 75586
         }
       ],
       "feed": "insider/transactions/feed.xml",
@@ -592,11 +592,11 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-05T23:42:53.042Z",
+      "lastSyncAt": "2026-11-06T06:59:58.833Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "daily-index.lastCompletedDay": "2026-11-04"
+        "daily-index.lastCompletedDay": "2026-11-05"
       }
     },
     "edgar-bulk": {
