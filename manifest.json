@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T09:06:51.297Z",
+  "generatedAt": "2026-11-07T09:07:36.659Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -455,8 +455,8 @@
     "congress-hearings": {
       "title": "Congressional hearing transcripts",
       "exportDir": "congress/hearings",
-      "rows": 1088,
-      "lastIngestedAt": "2026-11-06T16:08:50.161Z",
+      "rows": 1089,
+      "lastIngestedAt": "2026-11-07T09:07:35.600Z",
       "stale": false,
       "snapshots": [
         {
@@ -469,11 +469,11 @@
         },
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 264
+          "rows": 265
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 1088
+          "rows": 1089
         }
       ],
       "feed": "congress/hearings/feed.xml",
@@ -857,12 +857,12 @@
         "congress-hearings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-07T02:17:23.963Z",
+      "lastSyncAt": "2026-11-07T09:07:35.598Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "sitemap.2025.lastmod": "2026-11-06T09:04:00.090Z",
-        "sitemap.2026.lastmod": "2026-11-06T09:04:00.036Z"
+        "sitemap.2026.lastmod": "2026-11-07T09:05:00.037Z"
       }
     },
     "federalreserve": {
