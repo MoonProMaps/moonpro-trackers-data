@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T21:48:25.295Z",
+  "generatedAt": "2026-11-07T02:03:30.196Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -25,7 +25,7 @@
       "feed": "congress/trades/feed.xml",
       "entityFeeds": {
         "byTicker": 157,
-        "byMember": 38
+        "byMember": 37
       }
     },
     "insider-transactions": {
@@ -332,7 +332,7 @@
       ],
       "feed": "fda/approvals/feed.xml",
       "entityFeeds": {
-        "byTicker": 10,
+        "byTicker": 9,
         "byMember": 0
       }
     },
@@ -592,7 +592,7 @@
         "thirteenf-holdings"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-06T21:37:29.154Z",
+      "lastSyncAt": "2026-11-07T02:01:43.210Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
