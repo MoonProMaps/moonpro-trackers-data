@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T20:57:10.768Z",
+  "generatedAt": "2026-11-09T20:57:55.072Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -352,17 +352,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 4470,
-      "lastIngestedAt": "2026-11-07T09:04:26.339Z",
+      "rows": 4473,
+      "lastIngestedAt": "2026-11-09T20:57:54.517Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 4470
+          "rows": 4473
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 4470
+          "rows": 4473
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -725,7 +725,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-09T10:03:02.331Z",
+      "lastSyncAt": "2026-11-09T20:57:54.515Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -769,7 +769,7 @@
         "pageviews.en.wikipedia.Honeywell.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.IBM.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Intel.lastDay": "2026-11-08",
-        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-11-07",
+        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.JPMorgan_Chase.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Johnson_&_Johnson.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-11-08",
@@ -781,7 +781,7 @@
         "pageviews.en.wikipedia.Meta_Platforms.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Micron_Technology.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Microsoft.lastDay": "2026-11-08",
-        "pageviews.en.wikipedia.Moderna.lastDay": "2026-11-07",
+        "pageviews.en.wikipedia.Moderna.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Morgan_Stanley.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Netflix.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Nike,_Inc..lastDay": "2026-11-08",
@@ -803,7 +803,7 @@
         "pageviews.en.wikipedia.ServiceNow.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Snowflake_Inc..lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Starbucks.lastDay": "2026-11-08",
-        "pageviews.en.wikipedia.Target_Corporation.lastDay": "2026-11-07",
+        "pageviews.en.wikipedia.Target_Corporation.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.Texas_Instruments.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.The_Coca-Cola_Company.lastDay": "2026-11-08",
         "pageviews.en.wikipedia.The_Home_Depot.lastDay": "2026-11-08",
