@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:49:23.464Z",
+  "generatedAt": "2026-11-11T09:50:11.650Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -300,7 +300,7 @@
       "title": "Clinical trial registrations",
       "exportDir": "clinical-trials/studies",
       "rows": 44951,
-      "lastIngestedAt": "2026-11-11T02:16:15.070Z",
+      "lastIngestedAt": "2026-11-11T09:50:01.958Z",
       "stale": false,
       "snapshots": [
         {
@@ -695,7 +695,7 @@
         "clinical-trials"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-11T02:16:15.068Z",
+      "lastSyncAt": "2026-11-11T09:50:01.951Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
