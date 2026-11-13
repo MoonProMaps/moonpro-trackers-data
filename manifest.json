@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T23:46:08.123Z",
+  "generatedAt": "2026-11-13T23:46:41.618Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -246,13 +246,13 @@
     "short-volume": {
       "title": "Short-sale volume",
       "exportDir": "short-volume/daily",
-      "rows": 713790,
-      "lastIngestedAt": "2026-11-13T01:21:43.494Z",
+      "rows": 726056,
+      "lastIngestedAt": "2026-11-13T23:46:41.015Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 713790
+          "rows": 726056
         }
       ],
       "feed": "short-volume/daily/feed.xml",
@@ -663,11 +663,11 @@
         "short-volume"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-13T17:58:20.287Z",
+      "lastSyncAt": "2026-11-13T23:46:40.452Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "shortvol.CNMS.lastDay": "2026-11-12"
+        "shortvol.CNMS.lastDay": "2026-11-13"
       }
     },
     "congress-legislators": {
