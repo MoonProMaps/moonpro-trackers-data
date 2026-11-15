@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:20:53.400Z",
+  "generatedAt": "2026-11-15T17:21:39.884Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -356,17 +356,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 4724,
-      "lastIngestedAt": "2026-11-15T09:41:34.728Z",
+      "rows": 4725,
+      "lastIngestedAt": "2026-11-15T17:21:39.295Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 4724
+          "rows": 4725
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 4724
+          "rows": 4725
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -729,7 +729,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-15T09:41:34.724Z",
+      "lastSyncAt": "2026-11-15T17:21:39.293Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -780,7 +780,7 @@
         "pageviews.en.wikipedia.Mastercard.lastDay": "2026-11-14",
         "pageviews.en.wikipedia.McDonald's.lastDay": "2026-11-14",
         "pageviews.en.wikipedia.Medtronic.lastDay": "2026-11-14",
-        "pageviews.en.wikipedia.Merck_&_Co..lastDay": "2026-11-13",
+        "pageviews.en.wikipedia.Merck_&_Co..lastDay": "2026-11-14",
         "pageviews.en.wikipedia.MetLife.lastDay": "2026-11-14",
         "pageviews.en.wikipedia.Meta_Platforms.lastDay": "2026-11-14",
         "pageviews.en.wikipedia.Micron_Technology.lastDay": "2026-11-14",
