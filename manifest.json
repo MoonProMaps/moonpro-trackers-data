@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T07:02:21.035Z",
+  "generatedAt": "2026-11-16T07:03:08.684Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -421,7 +421,7 @@
       "title": "FEC candidate totals",
       "exportDir": "fec/candidates",
       "rows": 4389,
-      "lastIngestedAt": "2026-11-15T09:43:36.050Z",
+      "lastIngestedAt": "2026-11-16T07:03:07.127Z",
       "stale": false,
       "snapshots": [
         {
@@ -849,11 +849,11 @@
         "fec-contributions"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-15T23:04:11.959Z",
+      "lastSyncAt": "2026-11-16T07:03:07.125Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "fec.2026.lastFetchedAt": "2026-11-15T09:43:36.050Z"
+        "fec.2026.lastFetchedAt": "2026-11-16T07:03:07.127Z"
       }
     },
     "govinfo-hearings": {
