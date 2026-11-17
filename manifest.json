@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T22:35:36.166Z",
+  "generatedAt": "2026-11-17T22:36:25.737Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -356,17 +356,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 4848,
-      "lastIngestedAt": "2026-11-17T13:45:10.103Z",
+      "rows": 4851,
+      "lastIngestedAt": "2026-11-17T22:36:25.184Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 4848
+          "rows": 4851
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 4848
+          "rows": 4851
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -729,12 +729,12 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-17T13:45:10.100Z",
+      "lastSyncAt": "2026-11-17T22:36:25.179Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "pageviews.en.wikipedia.AT&T.lastDay": "2026-11-16",
-        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-11-15",
+        "pageviews.en.wikipedia.AbbVie.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Abbott_Laboratories.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Adobe_Inc..lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Advanced_Micro_Devices.lastDay": "2026-11-16",
@@ -773,7 +773,7 @@
         "pageviews.en.wikipedia.Honeywell.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.IBM.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Intel.lastDay": "2026-11-16",
-        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-11-15",
+        "pageviews.en.wikipedia.Intuitive_Surgical.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.JPMorgan_Chase.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Johnson_&_Johnson.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Lockheed_Martin.lastDay": "2026-11-16",
@@ -819,7 +819,7 @@
         "pageviews.en.wikipedia.Verizon_Communications.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Vertex_Pharmaceuticals.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Visa_Inc..lastDay": "2026-11-16",
-        "pageviews.en.wikipedia.Walmart.lastDay": "2026-11-15",
+        "pageviews.en.wikipedia.Walmart.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.Wells_Fargo.lastDay": "2026-11-16",
         "pageviews.en.wikipedia.eBay.lastDay": "2026-11-16"
       }
