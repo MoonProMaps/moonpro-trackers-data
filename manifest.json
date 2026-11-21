@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T03:22:01.691Z",
+  "generatedAt": "2026-11-21T03:22:45.752Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -321,22 +321,22 @@
     "fda-approvals": {
       "title": "FDA drug application events",
       "exportDir": "fda/approvals",
-      "rows": 1495,
-      "lastIngestedAt": "2026-11-20T21:58:24.245Z",
+      "rows": 1520,
+      "lastIngestedAt": "2026-11-21T03:22:45.281Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 1495
+          "rows": 1520
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 1495
+          "rows": 1520
         }
       ],
       "feed": "fda/approvals/feed.xml",
       "entityFeeds": {
-        "byTicker": 13,
+        "byTicker": 14,
         "byMember": 0
       }
     },
@@ -707,11 +707,11 @@
         "fda-approvals"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-20T21:58:24.239Z",
+      "lastSyncAt": "2026-11-21T03:22:45.279Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "openfda.lastStatusDate": "2026-11-17"
+        "openfda.lastStatusDate": "2026-11-18"
       }
     },
     "cftc": {
