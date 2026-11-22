@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T02:33:07.517Z",
+  "generatedAt": "2026-11-22T02:34:00.544Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -265,7 +265,7 @@
       "title": "Congressional committee assignments",
       "exportDir": "congress/committees",
       "rows": 3919,
-      "lastIngestedAt": "2026-11-21T20:40:11.918Z",
+      "lastIngestedAt": "2026-11-22T02:33:59.489Z",
       "stale": false,
       "snapshots": [
         {
@@ -675,7 +675,7 @@
         "committee-assignments"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-21T20:40:11.632Z",
+      "lastSyncAt": "2026-11-22T02:33:59.008Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {}
