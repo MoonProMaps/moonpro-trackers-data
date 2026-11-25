@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T02:56:49.953Z",
+  "generatedAt": "2026-11-25T02:58:07.474Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -379,20 +379,20 @@
       "title": "Federal legislation",
       "exportDir": "congress/bills",
       "rows": 20197,
-      "lastIngestedAt": "2026-11-24T18:11:08.141Z",
+      "lastIngestedAt": "2026-11-25T02:57:40.420Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2021.json.gz",
-          "rows": 111
+          "rows": 116
         },
         {
           "file": "snapshot-2022.json.gz",
-          "rows": 95
+          "rows": 98
         },
         {
           "file": "snapshot-2023.json.gz",
-          "rows": 217
+          "rows": 220
         },
         {
           "file": "snapshot-2024.json.gz",
@@ -400,7 +400,7 @@
         },
         {
           "file": "snapshot-2025.json.gz",
-          "rows": 10708
+          "rows": 10697
         },
         {
           "file": "snapshot-2026.json.gz",
@@ -829,18 +829,18 @@
         "bills"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-24T18:11:07.990Z",
+      "lastSyncAt": "2026-11-25T02:57:40.417Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
         "billstatus.119.hconres.lastModified": "2026-11-21T00:43:00.000Z",
         "billstatus.119.hjres.lastModified": "2026-11-21T20:16:00.000Z",
-        "billstatus.119.hr.lastModified": "2026-11-24T16:43:00.000Z",
+        "billstatus.119.hr.lastModified": "2026-11-25T00:14:00.000Z",
         "billstatus.119.hres.lastModified": "2026-11-24T00:16:00.000Z",
-        "billstatus.119.s.lastModified": "2026-11-24T16:43:00.000Z",
+        "billstatus.119.s.lastModified": "2026-11-25T00:14:00.000Z",
         "billstatus.119.sconres.lastModified": "2026-11-17T12:16:00.000Z",
         "billstatus.119.sjres.lastModified": "2026-11-18T20:16:00.000Z",
-        "billstatus.119.sres.lastModified": "2026-11-24T16:43:00.000Z"
+        "billstatus.119.sres.lastModified": "2026-11-24T20:37:00.000Z"
       }
     },
     "fec": {
