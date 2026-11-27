@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T04:27:12.399Z",
+  "generatedAt": "2026-11-27T04:28:06.551Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -663,11 +663,11 @@
         "short-volume"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-26T21:50:36.647Z",
+      "lastSyncAt": "2026-11-27T04:28:05.381Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
-        "shortvol.CNMS.lastDay": "2026-11-25"
+        "shortvol.CNMS.lastDay": "2026-11-26"
       }
     },
     "congress-legislators": {
