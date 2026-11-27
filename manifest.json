@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T22:55:45.568Z",
+  "generatedAt": "2026-11-27T22:56:43.498Z",
   "schemaVersion": 2,
   "datasets": {
     "congress-trades": {
@@ -356,17 +356,17 @@
     "wiki-pageviews": {
       "title": "Wikipedia pageviews",
       "exportDir": "wiki/pageviews",
-      "rows": 5367,
-      "lastIngestedAt": "2026-11-27T14:10:35.485Z",
+      "rows": 5368,
+      "lastIngestedAt": "2026-11-27T22:56:42.950Z",
       "stale": false,
       "snapshots": [
         {
           "file": "snapshot-2026.json.gz",
-          "rows": 5367
+          "rows": 5368
         },
         {
           "file": "snapshot.json.gz",
-          "rows": 5367
+          "rows": 5368
         }
       ],
       "feed": "wiki/pageviews/feed.xml",
@@ -729,7 +729,7 @@
         "wiki-pageviews"
       ],
       "lastSyncOk": true,
-      "lastSyncAt": "2026-11-27T14:10:35.483Z",
+      "lastSyncAt": "2026-11-27T22:56:42.947Z",
       "lastCanaryStatus": null,
       "lastCanaryAt": null,
       "watermarks": {
@@ -743,7 +743,7 @@
         "pageviews.en.wikipedia.Alphabet_Inc..lastDay": "2026-11-26",
         "pageviews.en.wikipedia.Amazon_(company).lastDay": "2026-11-26",
         "pageviews.en.wikipedia.American_Express.lastDay": "2026-11-26",
-        "pageviews.en.wikipedia.Amgen.lastDay": "2026-11-25",
+        "pageviews.en.wikipedia.Amgen.lastDay": "2026-11-26",
         "pageviews.en.wikipedia.Apple_Inc..lastDay": "2026-11-26",
         "pageviews.en.wikipedia.Applied_Materials.lastDay": "2026-11-26",
         "pageviews.en.wikipedia.Bank_of_America.lastDay": "2026-11-26",
